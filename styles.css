@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Ganti warna latar belakang sesuai keinginan Anda */
+}
+
+.welcome-container {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #333; /* Ganti warna teks sesuai keinginan Anda */
+}
+
+.video-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db; /* Ganti warna tautan sesuai keinginan Anda */
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Atur lebar sesuai keinginan Anda */
+}
+
+img {
+    width: 100%; /* Gambar mengisi lebar container */
+    height: auto; /* Menyesuaikan tinggi sesuai rasio gambar */
+    border-radius: 8px; /* Memberikan sudut melengkung pada gambar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk gambar */
+}
+
+p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #555; /* Ganti warna teks sesuai keinginan Anda */
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="video1.css">
+    <title>Streaming Web</title>
+</head>
+<body>
+    <header>
+        <h1>Penampakan manusia yang cosplay lumba-lumba</h1>
+    </header>
+    <main>
+        <div class="video-container">
+            <video id="myVideo" controls muted width="100%" height="auto">
+                <source src="acr.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </main>
+    <script>
+        // Memulai pemutaran video setelah halaman dimuat
+        document.addEventListener('DOMContentLoaded', function() {
+            var video = document.getElementById('myVideo');
+            video.play();
+        });
+    </script>
+</body>
+</html>
